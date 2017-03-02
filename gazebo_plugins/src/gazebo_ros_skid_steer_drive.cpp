@@ -74,6 +74,8 @@ namespace gazebo {
   // Load the controller
   void GazeboRosSkidSteerDrive::Load(physics::ModelPtr _parent, sdf::ElementPtr _sdf) {
 
+    ROS_INFO("******* Loading new and imporved skid steer driver!!!!!!");
+
     this->parent = _parent;
     this->world = _parent->GetWorld();
 
